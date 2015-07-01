@@ -1,0 +1,3 @@
+Whenever we initialize a repository, a hidden .git folder is created which contains metadata for the git repository. we need to do it so that we are able to track changes to the files in the repository.
+
+The staging area is just a temporary area that is used to add untracked files so that you when you commit, only the changes to the tracked files are stored. It is different from the working directory as the latter actually stores all the files in the directory.
