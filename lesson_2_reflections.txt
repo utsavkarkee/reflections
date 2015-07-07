@@ -1,3 +1,13 @@
 Whenever we initialize a repository, a hidden .git folder is created which contains metadata for the git repository. we need to do it so that we are able to track changes to the files in the repository.
 
 The staging area is just a temporary area that is used to add untracked files so that you when you commit, only the changes to the tracked files are stored. It is different from the working directory as the latter actually stores all the files in the directory.
+
+We can use the staging area to make sure that we have one commit per logical change by adding only the files that we are chaning to the staging area.
+
+Branches are useful when we want to do some experiment in the project that is different from the mainstream objective of the project.
+
+The diagrams help us a lot in visualizing the branch structure as we get to know the different branches, their respective commits and how they are related to other branches.
+
+The result of merging two branches together is getting all the desired changes that we want from the two branch (the functionalities of both branches combined). We represent it in the diagram as the tree branches connected because before merging, the two branches were separate, but after merging, they become connected.
+
+Git's automatic and manual merging have their own pros and cons. Automatic merging is helpful when there's a lot to merge and it would be tedious job to find all the things needed to merge manually. However, sometimes conflicts can arise while merging two branches. In this case, doing manual merging is required after trying to manually merge.
